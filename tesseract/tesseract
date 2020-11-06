@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker run --rm \
+--volume $PWD:/tesseract \
+--volume /var/folders:/var/folders \
+tesseract_ocr $*
+

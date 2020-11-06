@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker run -d --hostname dev-rabbit --name dev-rabbit -p 15672:15672 rabbitmq:3-management
+

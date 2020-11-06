@@ -1,0 +1,5 @@
+#!/bin/sh
+docker run -it --rm \
+python:latest \
+python $*
+

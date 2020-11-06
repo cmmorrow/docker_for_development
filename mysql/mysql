@@ -1,0 +1,7 @@
+#!/bin/sh
+docker run -d \
+--name ms2 \
+-volume $HOME/mysql:/var/lib/mysql \
+-p 3306:3306 \
+-e MYSQL_ALLOW_EMPTY_PASSWORD=y \
+mysql:latest
